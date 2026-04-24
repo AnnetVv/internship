@@ -497,7 +497,7 @@ def find_all_pairs(base_path):
 # ОСНОВНА ПРОГРАМА
 def main():
     # базова папка з даними
-    BASE_PATH = Path("/Users/macbook/Documents/практика")
+    BASE_PATH = Path(".")
     # папки для результатів
     OUTPUT_DIR = BASE_PATH / "vad_results_librosa_enhanced"
     SEGMENTS_DIR = OUTPUT_DIR / "segments_reports"
