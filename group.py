@@ -238,8 +238,8 @@ def find_annotation_files(base_path: Path) -> List[Path]:
 
 
 def main():
-    base_path = Path("/Users/macbook/Documents/практика")  # Шлях до папки з даними
-    output_file = Path("/Users/macbook/Documents/практика/script.txt")
+    BASE_PATH = Path(".")  # Шлях до папки з даними
+    output_file = Path("script.txt")
 
     lines = []
     lines.append("=" * 70)
